@@ -1418,10 +1418,18 @@
             animation-name: none !important;
     visibility: visible !important;
   }
+  .section::-webkit-scrollbar {
+    width: 10px;
+  }
+  .section::-webkit-scrollbar-track {
+    background-color: darkgrey;
+  }
 }
 
+
+
 /* Continuer Custom Width Area Style */
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
   .container {
     max-width: 1320px;
   }
@@ -1513,5 +1521,8 @@
     padding-left: 12px;
     padding-right: 12px;
   }
+ 
 }
+
+
 /*# sourceMappingURL=responsive.css.map */
